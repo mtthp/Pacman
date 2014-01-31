@@ -80,7 +80,7 @@ public class MonPacMan implements ApplicationListener {
 	
 		
 		batch.draw(this._pacman.getTexture(), _pacman.getPosition().x, _pacman.getPosition().y);
-		batch.draw(this._block.getTexture(), _block.getPosition().x, _block.getPosition().y);
+		//batch.draw(this._block.getTexture(), _block.getPosition().x, _block.getPosition().y);
 		
 		batch.end();
 	}
